@@ -100,12 +100,12 @@ div#profile{
 
 div#insurancelist{
     width: 70%;
-    height: 150px;
+    height: 100px;
 }
 
 div#addinsurance{
     width: 70%;
-    height: 100px;
+    height: 95px;
 }
 
 div#insuredinformation
@@ -121,7 +121,7 @@ div#insurancedetail{
 
 div#patientinformation{
     margin: 10px auto;
-    width: 70%;
+    width: 75%;
     border: 2px solid gray;
     border-radius:10px;
     text-align: left;
@@ -145,12 +145,14 @@ div#emergencycontact{
 
 .form .selectspan{
     display: inline-block;
-    margin: 2px 10px 2px;
+    margin: 2px 15px 2px 13px;
+    font-size: 15px;
 }
 
 .form .inputspan{
     display: inline-block;
-    margin: 2px 12px 2px;
+    margin: 2px 18px 2px 15px;
+    font-size: 15px;
 }
 
 .form .normal
@@ -175,7 +177,8 @@ div#emergencycontact{
 
 .form input, .form select, .form textarea
 {
-    margin: 2px 10px 2px;
+    margin: 2px 10px 2px 12px;
+    padding: 5px 5px;
 }
 .submit
 {
