@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html class="formbackground">
+<head lang="en">
+    <meta charset="UTF-8">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <title></title>
+</head>
+<body>
+<div id="container">
+    <div id="buttonheader">
+        <span>
+            <button class="btn" onclick="ShowProfile()">Profile</button>
+        </span>
+        <span>
+            <button class="btn" onclick="ShowInsurance()">Insurance</button>
+        </span>
+        <span>
+            <button class="btn">Other</button>
+        </span><br>
+    </div>
+
+    <div id="profile">
+        <div id="patientinformation" class="form shadow boxes">
+            <div class="boxheader">Patient Profile</div>
+            <div class="boxcontent">
+                <span class="normal inputspan">First Name:</span>
+                <span class="short inputspan">MI:</span>
+                <span class="normal inputspan">Last Name:</span>
+                <span class="short selectspan">Suffix:</span>
+                <span class="normal inputspan">Preferred Name:</span><br>
+                <input class="normal" type="text">
+                <input class="short" type="text">
+                <input class="normal" type="text">
+                <select class="short"></select>
+                <input class="normal" type="text"><br>
+
+                <span class="long inputspan">Address 1:</span>
+                <span class="long inputspan">Address 2:</span><br>
+                <input class="long" type="text">
+                <input class="long" type="text"><br>
+
+                <span class="normal inputspan">City:</span>
+                <span class="short selectspan">State:</span>
+                <span class="normal inputspan">Zip:</span>
+                <span class="normal selectspan">Country:</span><br>
+                <input class="normal" type="text">
+                <select class="short">
+                    <option></option>
+                    <option>OH</option>
+                </select>
+                <input class="normal" type="text" placeholder="_____-_____">
+                <select class="normal">
+                    <option></option>
+                    <option>OH</option>
+                </select><br>
+
+                <span class="normal inputspan">Home:</span>
+                <span class="normal inputspan">Mobile:</span>
+                <span class="normal selectspan">Mobile Carrier:</span>
+                <span class="normal inputspan">Work:</span><br>
+                <input class="normal" type="text" placeholder="(___)___-____">
+                <input class="normal" type="text" placeholder="(___)___-____">
+                <select class="normal">
+                    <option></option>
+                    <option>OH</option>
+                </select>
+                <input class="normal" type="text" placeholder="(___)___-____"><br>
+            </div>
+        </div>
+        <div id="emergencycontact" class="form shadow boxes">
+            <div class="boxheader">Emergency Contact</div>
+            <div class="boxcontent">
+                <span class="normal inputspan">First Name:</span><br>
+                <input class="normal" type="text"><br>
+                <span class="normal inputspan">Last Name:</span><br>
+                <input class="normal" type="text"><br>
+                <span class="normal selectspan">Relationship:</span><br>
+                <select class="normal"></select><br>
+                <span class="normal inputspan">Home:</span><br>
+                <input class="normal" type="text"><br>
+                <span class="normal inputspan">Mobile:</span><br>
+                <input class="normal" type="text"><br>
+            </div>
+        </div>
+    </div>
+    <div id="insurance">
+        <div id="insurancelist" class="boxes shadow">
+            <div class="boxheader">Insurance List</div>
+        </div>
+        <div id="addinsurance" class="boxes shadow form">
+            <div class="boxheader">Add insurance</div>
+            <div class="boxcontent">
+                <div style="width: 75%; margin: 0 auto; text-align: left">
+                    <span class="extralong inputspan">Insurance:</span>
+                    <span class="extralong inputspan">Insurance Address:</span><br>
+                    <select class="extralong"></select>
+                    <select class="extralong"></select><br>
+                </div>
+            </div>
+        </div>
+        <div id="insuredinformation" class="form boxes shadow">
+            <div class="boxheader">Insured Information</div>
+            <div class="boxcontent">
+                <span class="normal selectspan">Relationship:</span>
+                <span class="normal selectspan">Gender:</span>
+                <span class="normal inputspan">Date of Birth:</span><br>
+                <select class="normal"></select>
+                <select class="normal"></select>
+                <input class="normal" type="date"><br>
+
+                <span class="normal inputspan">First Name:</span>
+                <span class="short inputspan">MI:</span>
+                <span class="normal inputspan">Last Name:</span><br>
+                <input class="normal" type="text">
+                <input class="short" type="text">
+                <input class="normal" type="text"><br>
+
+                <span class="long inputspan">Address 1:</span>
+                <span class="long inputspan">Address 2:</span><br>
+                <input class="long" type="text">
+                <input class="long" type="text"><br>
+
+                <span class="normal inputspan">City:</span>
+                <span class="short selectspan">State:</span>
+                <span class="normal inputspan">Zip:</span><br>
+                <input class="normal" type="text">
+                <select>
+                    <option></option>
+                    <option>OH</option>
+                </select>
+                <input class="normal" type="text" placeholder="_____-_____"><br>
+
+                <span class="normal inputspan">Phone:</span><br>
+                <input class="normal" type="text" placeholder="(___)___-____">
+            </div>
+        </div>
+        <div id="insurancedetail" class="form boxes shadow">
+            <div class="boxheader">Insurance Detail</div>
+            <div class="boxcontent">
+                <span class="normal inputspan">Employer:</span><br>
+                <input class="long" type="text"><br>
+                <span class="normal inputspan">Plan Name:</span><br>
+                <input class="long" type="text"><br>
+                <span class="normal inputspan">Group/FECA#:</span><br>
+                <input class="long" type="text"><br>
+                <span class="normal inputspan">ID:</span><br>
+                <input class="long" type="text"><br>
+            </div>
+        </div>
+    </div>
+</div>
+</table>
+
+<script src="scripts/main.js"></script>
+
+</body>
+</html>
